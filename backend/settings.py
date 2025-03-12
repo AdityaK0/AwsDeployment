@@ -39,14 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'coreApp'
+    'coreApp','sslserver',
 
 ]
 
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173",
+    "http://127.0.0.1:5173","http://13.202.214.73"
 ]
 APPEND_SLASH=True
 
