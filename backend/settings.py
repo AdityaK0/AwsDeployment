@@ -46,8 +46,10 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://127.0.0.1:5173","13.202.214.73", "localhost", "127.0.0.1"
+    "http://127.0.0.1:5173",
 ]
+ALLOWED_HOSTS = ["13.202.214.73", "localhost", "127.0.0.1"]
+
 APPEND_SLASH=True
 
 CORS_ALLOW_METHODS = [
