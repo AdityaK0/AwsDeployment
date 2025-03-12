@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
 ]
 
+SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
